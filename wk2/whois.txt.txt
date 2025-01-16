@@ -1,0 +1,116 @@
+1) Domain:
+georgebrown.ca
+Registrar:
+Webnames.ca Inc.
+Registered On:
+2002-07-04
+Expires On:
+2025-07-04
+Updated On:
+2024-10-18
+Status:
+clientTransferProhibited
+Name Servers:
+ns1.d-zone.ca
+ns1.georgebrown.ca
+ns2.d-zone.ca
+ns2.georgebrown.ca
+
+
+2) 
+Domain:
+ebay.ca
+Registrar:
+MarkMonitor International Canada Ltd.
+Registered On:
+2000-10-28
+Expires On:
+2025-10-15
+Updated On:
+2024-09-13
+Status:
+clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+Name Servers:
+dns1.p06.nsone.net
+dns2.p06.nsone.net
+dns3.p06.nsone.net
+dns4.p06.nsone.net
+ns01.ebaydns.com
+ns02.ebaydns.com
+ns03.ebaydns.com
+
+3)
+
+ 
+Domain:
+google.co.in
+Registrar:
+MarkMonitor Inc.
+Registered On:
+2003-06-23
+Expires On:
+2025-06-23
+Updated On:
+2024-05-27
+Status:
+clientDeleteProhibited
+clientUpdateProhibited
+clientTransferProhibited
+Name Servers:
+ns4.google.com
+ns2.google.com
+ns1.google.com
+ns3.google.com
+
+4) 
+
+omain:
+qq.com
+Registrar:
+MarkMonitor Information Technology (Shanghai) Co., Ltd.
+Registered On:
+1995-05-04
+Expires On:
+2034-07-27
+Updated On:
+2024-10-30
+Status:
+clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:
+ns1.qq.com
+ns2.qq.com
+ns3.qq.com
+ns4.qq.com
+
+5)
+
+Domain:
+youtube.com
+Registrar:
+MarkMonitor Inc.
+Registered On:
+2005-02-15
+Expires On:
+2026-02-15
+Updated On:
+2025-01-14
+Status:
+clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:
+ns1.google.com
+ns2.google.com
+ns3.google.com
+ns4.google.com
+

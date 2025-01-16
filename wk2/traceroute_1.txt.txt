@@ -1,0 +1,128 @@
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Aditya Suri>ssh root@159.89.125.95
+root@159.89.125.95's password:
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Jan 16 02:59:46 UTC 2025
+
+  System load:  0.0                Users logged in:       0
+  Usage of /:   13.1% of 24.05GB   IPv4 address for eth0: 159.89.125.95
+  Memory usage: 62%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    106
+
+Expanded Security Maintenance for Applications is not enabled.
+
+104 updates can be applied immediately.
+5 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+2 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://159.89.125.95
+
+On the server:
+ * The default web root is located at /var/www/html
+ * If you're using the embedded database, the MySQL root password
+   is saved in /root/.digitalocean_password. If you've opted in to
+   using a DBaaS instance with DigitalOcean, you will find your
+   credentials written to /root/.digitalocean_dbaas_credentials
+   and you will have access to a DATABASE_URL environment variable
+   holding your database connection string.
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Thu Jan 16 02:46:28 2025 from 174.88.217.91
+root@comp3134-winter-2025-intro-to-cyber-security:~# apt-get install traceroute
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  traceroute
+0 upgraded, 1 newly installed, 0 to remove and 95 not upgraded.
+Need to get 45.4 kB of archives.
+After this operation, 152 kB of additional disk space will be used.
+Get:1 http://mirrors.digitalocean.com/ubuntu jammy/universe amd64 traceroute amd64 1:2.1.0-2 [45.4 kB]
+Fetched 45.4 kB in 0s (272 kB/s)
+Selecting previously unselected package traceroute.
+(Reading database ... 97428 files and directories currently installed.)
+Preparing to unpack .../traceroute_1%3a2.1.0-2_amd64.deb ...
+Unpacking traceroute (1:2.1.0-2) ...
+Setting up traceroute (1:2.1.0-2) ...
+update-alternatives: using /usr/bin/traceroute.db to provide /usr/bin/traceroute (traceroute) in auto mode
+update-alternatives: using /usr/bin/traceroute6.db to provide /usr/bin/traceroute6 (traceroute6) in auto mode
+update-alternatives: using /usr/bin/lft.db to provide /usr/bin/lft (lft) in auto mode
+update-alternatives: using /usr/bin/traceproto.db to provide /usr/bin/traceproto (traceproto) in auto mode
+update-alternatives: using /usr/sbin/tcptraceroute.db to provide /usr/sbin/tcptraceroute (tcptraceroute) in auto mode
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...
+Scanning candidates...
+Scanning linux images...
+
+Restarting services...
+ systemctl restart apache2.service cron.service multipathd.service mysql.service packagekit.service polkit.service postfix@-.service rsyslog.service serial-getty@ttyS0.service ssh.service systemd-journald.service systemd-networkd.service systemd-resolved.service systemd-timesyncd.service systemd-udevd.service
+^[[AService restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+root@comp3134-winter-2025-intro-to-cyber-security:~# apt-get install traceroute
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+traceroute is already the newest version (1:2.1.0-2).
+0 upgraded, 0 newly installed, 0 to remove and 95 not upgraded.
+root@comp3134-winter-2025-intro-to-cyber-security:~# traceroute youtube.com
+traceroute to youtube.com (142.251.33.174), 30 hops max, 60 byte packets
+ 1  162.243.190.9 (162.243.190.9)  2.515 ms 162.243.190.5 (162.243.190.5)  2.426 ms^[[B^[[A 162.243.190.9 (162.243.190.9)  2.409 ms
+
+ 2  143.244.192.138 (143.244.192.138)  2.528 ms 143.244.192.136 (143.244.192.136)  2.729 ms  2.571 ms
+ 3  143.244.224.48 (143.244.224.48)  2.644 ms  2.471 ms 143.244.224.40 (143.244.224.40)  2.492 ms
+ 4  143.244.224.45 (143.244.224.45)  2.421 ms  2.406 ms 143.244.224.47 (143.244.224.47)  2.484 ms
+ 5  146.190.180.67 (146.190.180.67)  2.749 ms  2.906 ms 146.190.180.55 (146.190.180.55)  2.891 ms
+ 6  * * *
+ 7  142.251.70.12 (142.251.70.12)  2.468 ms 142.251.68.24 (142.251.68.24)  3.134 ms  2.641 ms
+ 8  yyz10s17-in-f14.1e100.net (142.251.33.174)  2.408 ms 172.253.69.115 (172.253.69.115)  2.391 ms 192.178.98.124 (192.178.98.124)  2.375 ms
+root@comp3134-winter-2025-intro-to-cyber-security:~# traceroute youtube.com
+traceroute to youtube.com (142.251.41.46), 30 hops max, 60 byte packets
+ 1  162.243.190.9 (162.243.190.9)  1.603 ms  1.569 ms  1.811 ms
+ 2  143.244.192.136 (143.244.192.136)  2.110 ms  2.097 ms 143.244.192.126 (143.244.192.126)  1.767 ms
+ 3  143.244.224.40 (143.244.224.40)  2.304 ms 143.244.224.42 (143.244.224.42)  2.291 ms 143.244.224.40 (143.244.224.40)  1.969 ms
+ 4  143.244.224.39 (143.244.224.39)  1.807 ms 143.244.224.45 (143.244.224.45)  2.256 ms 143.244.224.47 (143.244.224.47)  1.927 ms
+ 5  146.190.180.55 (146.190.180.55)  2.380 ms 146.190.180.67 (146.190.180.67)  2.342 ms  2.330 ms
+ 6  * * *
+ 7  142.251.70.12 (142.251.70.12)  1.976 ms 142.251.70.10 (142.251.70.10)  2.104 ms  2.081 ms
+ 8  192.178.98.54 (192.178.98.54)  1.720 ms 192.178.98.58 (192.178.98.58)  1.350 ms 192.178.98.198 (192.178.98.198)  1.325 ms
+ 9  yyz12s08-in-f14.1e100.net (142.251.41.46)  1.480 ms  1.453 ms  1.428 ms
+root@comp3134-winter-2025-intro-to-cyber-security:~#

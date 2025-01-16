@@ -1,0 +1,173 @@
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Aditya Suri>ssh root@159.89.125.95
+root@159.89.125.95's password:
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Jan 16 03:05:44 UTC 2025
+
+  System load:  0.00390625         Users logged in:       0
+  Usage of /:   13.1% of 24.05GB   IPv4 address for eth0: 159.89.125.95
+  Memory usage: 59%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    102
+
+Expanded Security Maintenance for Applications is not enabled.
+
+104 updates can be applied immediately.
+5 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+3 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://159.89.125.95
+
+On the server:
+ * The default web root is located at /var/www/html
+ * If you're using the embedded database, the MySQL root password
+   is saved in /root/.digitalocean_password. If you've opted in to
+   using a DBaaS instance with DigitalOcean, you will find your
+   credentials written to /root/.digitalocean_dbaas_credentials
+   and you will have access to a DATABASE_URL environment variable
+   holding your database connection string.
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Thu Jan 16 02:59:46 2025 from 174.88.217.91
+root@comp3134-winter-2025-intro-to-cyber-security:~# apt-get install nmap
+nmap --version
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libblas3 liblinear4 lua-lpeg nmap-common
+Suggested packages:
+  liblinear-tools liblinear-dev ncat ndiff zenmap
+The following NEW packages will be installed:
+  libblas3 liblinear4 lua-lpeg nmap nmap-common
+0 upgraded, 5 newly installed, 0 to remove and 95 not upgraded.
+Need to get 5973 kB of archives.
+After this operation, 26.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://mirrors.digitalocean.com/ubuntu jammy/main amd64 libblas3 amd64 3.10.0-2ubuntu1 [228 kB]
+Get:2 http://mirrors.digitalocean.com/ubuntu jammy/universe amd64 liblinear4 amd64 2.3.0+dfsg-5 [41.4 kB]
+Get:3 http://mirrors.digitalocean.com/ubuntu jammy/universe amd64 lua-lpeg amd64 1.0.2-1 [31.4 kB]
+Get:4 http://mirrors.digitalocean.com/ubuntu jammy-updates/universe amd64 nmap-common all 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1 [3940 kB]
+Get:5 http://mirrors.digitalocean.com/ubuntu jammy-updates/universe amd64 nmap amd64 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1 [1731 kB]
+Fetched 5973 kB in 0s (24.1 MB/s)
+Selecting previously unselected package libblas3:amd64.
+(Reading database ... 97448 files and directories currently installed.)
+Preparing to unpack .../libblas3_3.10.0-2ubuntu1_amd64.deb ...
+Unpacking libblas3:amd64 (3.10.0-2ubuntu1) ...
+Selecting previously unselected package liblinear4:amd64.
+Preparing to unpack .../liblinear4_2.3.0+dfsg-5_amd64.deb ...
+Unpacking liblinear4:amd64 (2.3.0+dfsg-5) ...
+Selecting previously unselected package lua-lpeg:amd64.
+Preparing to unpack .../lua-lpeg_1.0.2-1_amd64.deb ...
+Unpacking lua-lpeg:amd64 (1.0.2-1) ...
+Selecting previously unselected package nmap-common.
+Preparing to unpack .../nmap-common_7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1_all.deb ...
+Unpacking nmap-common (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Selecting previously unselected package nmap.
+Preparing to unpack .../nmap_7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1_amd64.deb ...
+Unpacking nmap (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Setting up lua-lpeg:amd64 (1.0.2-1) ...
+Setting up libblas3:amd64 (3.10.0-2ubuntu1) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/blas/libblas.so.3 to provide /usr/lib/x86_64-linux-gnu/libblas.so.3 (libblas.so.3-x86_64-linux-gnu) in auto mode
+Setting up nmap-common (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Setting up liblinear4:amd64 (2.3.0+dfsg-5) ...
+Setting up nmap (7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+Scanning processes...
+Scanning candidates...
+Scanning linux images...
+
+Restarting services...
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Nmap version 7.80 ( https://nmap.org )
+Platform: x86_64-pc-linux-gnu
+Compiled with: liblua-5.3.6 openssl-3.0.2 nmap-libssh2-1.8.2 libz-1.2.11 libpcre-8.45 libpcap-1.10.1 nmap-libdnet-1.12 ipv6
+Compiled without:
+root@comp3134-winter-2025-intro-to-cyber-security:~# nmap youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-16 03:07 UTC
+Nmap scan report for youtube.com (142.251.33.174)
+Host is up (0.0020s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 142.251.33.174: yyz10s17-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.89 seconds
+root@comp3134-winter-2025-intro-to-cyber-security:~# nmap -p 5000 youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-16 03:08 UTC
+Nmap scan report for youtube.com (142.251.33.174)
+Host is up (0.0019s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 142.251.33.174: yyz10s17-in-f14.1e100.net
+
+PORT     STATE    SERVICE
+5000/tcp filtered upnp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+root@comp3134-winter-2025-intro-to-cyber-security:~# nmap -p 20-10000 youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-16 03:09 UTC
+Nmap scan report for youtube.com (142.251.33.174)
+Host is up (0.0015s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 142.251.33.174: yyz10s17-in-f14.1e100.net
+Not shown: 9979 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 24.48 seconds
+root@comp3134-winter-2025-intro-to-cyber-security:~# nmap -F google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-16 03:10 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0023s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.76 seconds
+root@comp3134-winter-2025-intro-to-cyber-security:~#                                           

@@ -1,0 +1,115 @@
+Git bash
+
+Aditya Suri@LAPTOP-K4PA7FUF MINGW64 ~
+$ ssh root@159.891.125.95
+ssh: Could not resolve hostname 159.891.125.95: Name or service not known
+
+Aditya Suri@LAPTOP-K4PA7FUF MINGW64 ~
+$ ssh root@159.89.125.95
+root@159.89.125.95's password:
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Jan 16 02:46:28 UTC 2025
+
+  System load:  0.0                Users logged in:       0
+  Usage of /:   13.1% of 24.05GB   IPv4 address for eth0: 159.89.125.95
+  Memory usage: 62%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    104
+
+Expanded Security Maintenance for Applications is not enabled.
+
+104 updates can be applied immediately.
+5 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+2 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://159.89.125.95
+
+On the server:
+ * The default web root is located at /var/www/html
+ * If you're using the embedded database, the MySQL root password
+   is saved in /root/.digitalocean_password. If you've opted in to
+   using a DBaaS instance with DigitalOcean, you will find your
+   credentials written to /root/.digitalocean_dbaas_credentials
+   and you will have access to a DATABASE_URL environment variable
+   holding your database connection string.
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Thu Jan 16 00:18:43 2025 from 184.147.176.131
+root@comp3134-winter-2025-intro-to-cyber-security:~#
+root@comp3134-winter-2025-intro-to-cyber-security:~# apt-get update
+Hit:1 http://mirrors.digitalocean.com/ubuntu jammy InRelease
+Get:2 http://mirrors.digitalocean.com/ubuntu jammy-updates InRelease [128 kB]
+Hit:3 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease
+Get:4 http://mirrors.digitalocean.com/ubuntu jammy-backports InRelease [127 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Hit:6 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease
+Get:7 http://mirrors.digitalocean.com/ubuntu jammy-updates/universe amd64 Packages [1182 kB]
+Get:8 http://mirrors.digitalocean.com/ubuntu jammy-updates/universe Translation-en [289 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2041 kB]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [321 kB]
+Fetched 4217 kB in 9s (494 kB/s)
+Reading package lists... Done
+root@comp3134-winter-2025-intro-to-cyber-security:~# apt-get install apache2-utils
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+apache2-utils is already the newest version (2.4.52-1ubuntu4.12).
+0 upgraded, 0 newly installed, 0 to remove and 95 not upgraded.
+root@comp3134-winter-2025-intro-to-cyber-security:~# ping142.250.191.78
+ping142.250.191.78: command not found
+root@comp3134-winter-2025-intro-to-cyber-security:~# ping youtube.com
+PING youtube.com (142.251.33.174) 56(84) bytes of data.
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=1 ttl=59 time=2.02 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=2 ttl=59 time=1.20 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=3 ttl=59 time=1.18 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=4 ttl=59 time=1.28 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=5 ttl=59 time=1.56 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=6 ttl=59 time=1.26 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=7 ttl=59 time=1.23 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=8 ttl=59 time=1.35 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=9 ttl=59 time=1.23 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=10 ttl=59 time=1.21 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=11 ttl=59 time=1.21 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=12 ttl=59 time=1.21 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=13 ttl=59 time=1.21 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=14 ttl=59 time=1.26 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=15 ttl=59 time=1.16 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=16 ttl=59 time=1.16 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=17 ttl=59 time=1.21 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=18 ttl=59 time=1.30 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=19 ttl=59 time=1.24 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=20 ttl=59 time=1.22 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=21 ttl=59 time=1.31 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=22 ttl=59 time=1.24 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=23 ttl=59 time=1.23 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=24 ttl=59 time=1.12 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=25 ttl=59 time=1.37 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=26 ttl=59 time=1.22 ms
+^C
+--- youtube.com ping statistics ---
