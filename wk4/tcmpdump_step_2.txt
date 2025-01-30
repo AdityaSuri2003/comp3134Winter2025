@@ -1,0 +1,11 @@
+root@comp3134-winter-2025-intro-to-cyber-security:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+23:52:00.922560 IP comp3134-winter-2025-intro-to-cyber-security.ssh > 198.211.111.194.51496: Flags [P.], seq 1898736683:1898736811, ack 3871522851, win 501, options [nop,nop,TS val 3004938121 ecr 4124285761], length 128
+23:52:00.922665 IP comp3134-winter-2025-intro-to-cyber-security.ssh > 198.211.111.194.51496: Flags [P.], seq 128:272, ack 1, win 501, options [nop,nop,TS val 3004938121 ecr 4124285761], length 144
+23:52:00.922723 IP comp3134-winter-2025-intro-to-cyber-security.ssh > 198.211.111.194.51496: Flags [P.], seq 272:352, ack 1, win 501, options [nop,nop,TS val 3004938121 ecr 4124285761], length 80
+23:52:00.922793 IP comp3134-winter-2025-intro-to-cyber-security.ssh > 198.211.111.194.51496: Flags [P.], seq 352:496, ack 1, win 501, options [nop,nop,TS val 3004938121 ecr 4124285761], length 144
+23:52:00.929054 IP 198.211.111.194.51496 > comp3134-winter-2025-intro-to-cyber-security.ssh: Flags [.], ack 0, win 501, options [nop,nop,TS val 4124285776 ecr 3004938115], length 0
+5 packets captured
+36 packets received by filter
+0 packets dropped by kernel

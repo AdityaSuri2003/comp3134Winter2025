@@ -1,0 +1,43 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Aditya Suri> tracert tesla.com
+
+Tracing route to tesla.com [2.18.53.207]
+over a maximum of 30 hops:
+
+  1     2 ms     1 ms     1 ms  mynetwork.home [192.168.2.1]
+  2    12 ms     7 ms    17 ms  142.124.37.83
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5    17 ms    17 ms    17 ms  64.230.59.188
+  6     *        *        *     Request timed out.
+  7    18 ms    18 ms    19 ms  64.230.79.75
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14    65 ms    63 ms    65 ms  64.125.35.202.IPYX-145641-004-ZYO.zip.zayo.com [64.125.35.202]
+ 15   214 ms   212 ms   213 ms  203.208.148.174
+ 16     *        *      227 ms  61.88.33.3
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19   222 ms   221 ms   221 ms  124.19.61.228
+ 20   235 ms   231 ms   232 ms  59.154.97.146
+ 21   223 ms   222 ms   221 ms  a23-45-168-211.deploy.static.akamaitechnologies.com [23.45.168.211]
+ 22     *        *        *     Request timed out.
+ 23   243 ms   232 ms   239 ms  ae1.r02.bne01.ien.netarch.akamai.com [23.56.135.24]
+ 24   222 ms   226 ms   226 ms  ae2.r01.bne01.icn.netarch.akamai.com [23.56.135.38]
+ 25   234 ms   234 ms   234 ms  ae13.r01.syd01.icn.netarch.akamai.com [23.214.115.65]
+ 26   370 ms   368 ms   369 ms  ae18.r01.lax01.icn.netarch.akamai.com [23.193.112.251]
+ 27   412 ms   415 ms   413 ms  ae29.r01.ord01.icn.netarch.akamai.com [23.32.62.121]
+ 28   425 ms   441 ms   422 ms  ae3.r02.yto01.icn.netarch.akamai.com [23.32.63.111]
+ 29   427 ms   419 ms   419 ms  ae2.r01.yto01.ien.netarch.akamai.com [23.203.148.37]
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+PS C:\Users\Aditya Suri>

@@ -1,0 +1,26 @@
+Task 2 - Domain Registration and Hosting information 
+
+Domain owner - Domain: tesla.com
+
+Registrar - MarkMonitor Inc.
+
+Registration dates - 
+
+Registered On:
+1992-11-04
+Expires On:
+2026-11-03
+Updated On:
+2024-10-02
+
+Hosting Details -
+
+Registrar: MarkMonitor Inc.
+Domain Created: 2003-03-02
+Expiration Date: 2026-11-03
+Updated On: 2024-10-02
+Registrant: Tesla, Inc.
+Registrant Address: 1 Tesla Road, Austin, TX 78725, USA
+Nameservers:
+ns1.tesla.com
+ns2.tesla.com

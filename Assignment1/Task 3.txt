@@ -1,0 +1,20 @@
+Task 3 - Verify Server Communication 
+
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Aditya Suri>ping tesla.com
+
+Pinging tesla.com [2.18.53.207] with 32 bytes of data:
+Reply from 2.18.53.207: bytes=32 time=223ms TTL=53
+Reply from 2.18.53.207: bytes=32 time=212ms TTL=53
+Reply from 2.18.53.207: bytes=32 time=210ms TTL=53
+Reply from 2.18.53.207: bytes=32 time=210ms TTL=53
+
+Ping statistics for 2.18.53.207:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 210ms, Maximum = 223ms, Average = 213ms
+
+C:\Users\Aditya Suri>
