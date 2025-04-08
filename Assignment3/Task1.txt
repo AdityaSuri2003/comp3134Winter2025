@@ -1,0 +1,23 @@
+1) 
+Domain: facebook.com
+Cookie Name: fr
+Cookie Value : 04XUJmE3gJFF8GIpL..Bn21kI..AAA.0.0.Bn21kI.AWVuZn-xNS8
+Cookie Path : /
+
+2) 
+Domain : Wikipedia.org
+Cookie Name : GeoIP
+Cookie Value : CA:ON:Toronto:43.64:-79.40:v4
+Cookie Path : /
+
+3) 
+Domain : Amazon.com
+Cookie Name : ad-id
+Cookie Value : Ayt401Rx9kvHkcHohkQoz2I
+Cookie Path : /
+
+4) 
+Domain : Youtube.com
+Cookie Name : AEC
+Cookie Value :AZ6Zc-WDcR8YDEnEPyFSzuvmBpDjGOK4dpOqq5PTM8hOvWudV1zZHvlgcg 
+Cookie Path : /

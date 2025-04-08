@@ -1,0 +1,5 @@
+1) This is just a normal line.
+2) <script>document.body.style.backgroundColor = "lightblue";</script>
+3) Cybersecurity is very interesting!
+4) <?php phpinfo(); ?>
+5) Never trust user input blindly.

@@ -1,0 +1,32 @@
+1) 
+Domain : facebook.com
+
+Hidden Fields:
+a) Name: jazoest , Value: 2798
+b) Name: lsd, Value: AVp6DE458nI 
+c) Name: timezone, Value: 240
+d) Name: lgnrnd, Value: 182036__UXi
+
+Form Method: POST
+
+2) 
+Domain : google.com
+
+Hidden Fields:
+a) Name: Continue , Value: 9884
+b) Name: service , Value: Gfp021Gfml
+c) Name: ltmpl , Value: 600
+d) Name: scc , Value: iXu_sa234wsc1
+
+Form Method: POST
+
+3) 
+Domain : Instagram.com
+
+Hidden Fields:
+a) Name: csrfmiddlewaretoken , Value: LKsp23
+b) Name: next , Value: saS)l2skxb3
+c) Name: enc_password , Value: 33SXa2
+d) Name: queryParams , Value: LKJ_saxvb3
+
+Form Method: POST

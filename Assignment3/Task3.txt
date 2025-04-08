@@ -1,0 +1,5 @@
+Question - command to send an HTTP request using the command line to search for 
+YouTube videos that contain the title HAPPY 
+
+
+Answer - curl "https://www.youtube.com/results?search_query=HAPPY"

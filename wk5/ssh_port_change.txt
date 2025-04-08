@@ -1,0 +1,2 @@
+sudo service ssh restart
+ssh your_adityasuri2003@159.89.125.95 -p 2222
